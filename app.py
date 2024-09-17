@@ -24,8 +24,9 @@ tab1, tab2 = st.tabs(["Prefeitos", "Vereadores"])
 
 # Aba de Prefeitos
 with tab1:
-    st.title('Análise de Gastos nas Eleições de 2024 - Prefeitos - Atualizado 16 de Setembro de 2024')
-    st.write('Produzido por Christian Basilio - Linkedin: https://www.linkedin.com/in/christianbasilioo/')
+    st.title('Análise de Gastos nas Eleições de 2024 em Todo o Brasil - Prefeitos - Atualizado 16 de Setembro de 2024')
+    st.write('''
+             Produzido por Christian Basilio - Linkedin: https://www.linkedin.com/in/christianbasilioo/''')
     # Criando filtros com opções iniciais vazias
     st.write('Filtros de Seleção - Prefeitos')
     col1, col2, col3 = st.columns(3)  # Cria três colunas
@@ -109,7 +110,7 @@ with tab1:
 
 # Aba de Vereadores
 with tab2:
-    st.title('Análise de Gastos nas Eleições de 2024 - Vereadores - Atualizado 16 de Setembro de 2024')
+    st.title('Análise de Gastos nas Eleições de 2024 em Todo o Brasil - Vereadores - Atualizado 16 de Setembro de 2024')
     st.write('Produzido por Christian Basilio - Linkedin: https://www.linkedin.com/in/christianbasilioo/')
     
     
